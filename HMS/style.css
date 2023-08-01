@@ -1,0 +1,29 @@
+body{
+    background-color: blue;
+}
+.text-color{
+    color: #010a05 !important;
+    height: 30px;
+    width: 200px;
+    border: none;
+    padding-inline-start: 10px;
+}
+.text-color:focus{
+    background: linear-gradient(red, #009a45)
+}
+#greetings{
+    color: blueviolet;
+    text-align: center;
+}
+#text-position{
+    text-align: center;
+    color: #370101;
+    height: 100px;
+}
+.ball{
+    background: #370101;
+    color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}

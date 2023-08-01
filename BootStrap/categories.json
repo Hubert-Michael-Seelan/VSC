@@ -1,0 +1,36 @@
+{
+    "data":[
+        {
+            "label": "pizza",
+            "image": "https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png"
+        },
+        {
+            "label":"chicken",
+            "image":"https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png"
+        },
+        {
+            "label": "Burger",
+            "image": "https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png"
+        },
+        {
+            "label": "Sandwich",
+            "image": "https://b.zmtcdn.com/data/o2_assets/fc641efbb73b10484257f295ef0b9b981634401116.png"
+        },
+        {
+            "label": "Briyani",
+            "image": "https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png"
+        },
+        {
+            "label": "Cake",
+            "image": "https://b.zmtcdn.com/data/dish_images/d5ab931c8c239271de45e1c159af94311634805744.png"
+        },
+        {
+            "label": "Fried Rice",
+            "image": "https://b.zmtcdn.com/data/o2_assets/e444ade83eb22360b6ca79e6e777955f1632716661.png"
+        },
+        {
+            "label": "Chaat",
+            "image": "https://b.zmtcdn.com/data/dish_images/1437bc204cb5c892cb22d78b4347f4651634827140.png"
+        }
+    ]
+}
