@@ -96,7 +96,7 @@ function getCategories() {
 function getRestaurants() {
   var request = new XMLHttpRequest();
   request.addEventListener("load", renderRestaurantsData);
-  request.open("GET", "./restaurants.json");
+  request.open("GET", "./restaurant.json");
   request.send();
 }
 getCategories();
