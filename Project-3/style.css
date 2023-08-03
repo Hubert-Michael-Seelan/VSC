@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(65, 143, 221, 0.795);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: none;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background: linear-gradient(blue, rgb(10, 222, 229), red, burlywood);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px burlywood,
+                      5px 5px 12px black;
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: rgb(201, 69, 69);
+    box-shadow: inset -5px -5px 12px white
+                inset 5px 5px 12px black;
+    border: none;
+    border-radius: 30px;
+    color: rgb(10, 64, 243);
+    font-size: 40px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+button{
+    height: 48px;
+    width: 48px;
+    box-shadow: -5px -5px 12px burlywood
+                 5px 5px 12px black;
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: burlywood; 
+    }
+button:hover{
+    background-color: aqua;
+}               
+button:focus{
+    background-color: rgb(247, 6, 6);
+}
+
+.equal{
+    width: 115px;
+    border-radius: 40px;
+    background-color: burlywood;
+    box-shadow: -5px -5px 12px burlywood
+    5px 5px 12px black;
+}
