@@ -12,10 +12,10 @@ fetch("https://restcountries.com/v3.1/all")
             <div class="p-3" style="text-align: center; background-color: black; color: white;"><h1 id="title" class="text-center">${element.name.common}</h1>
             </div>
                <div class="card-body">
-        <img src="${element.flags.png}" class="card-img-top" alt="Flag of Afghanistan">
+        <img src="${element.flags.png}" class="card-img-top" alt="...">
            <div class="card-body" style="text-align: center;">
              <div class="card-text">captial:${element.capital}</div>
-               <div class="card-text">Regian:${element.region}</div>
+               <div class="card-text">Region:${element.region}</div>
                  <div class="card-text">Country Code:${element.cca3}</div>
                  <div class="card-text"> LatAng  ${element.latlng}</div>
                   <div class="mt-3">

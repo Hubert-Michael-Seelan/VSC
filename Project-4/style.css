@@ -6,7 +6,7 @@ body{
     margin-right: auto;
   }
   
-  .container-card{
+.container-card{
     margin-top: 30px;
     background-color: rgb(28,52,60);
     border-radius: 5px;
@@ -14,23 +14,23 @@ body{
     justify-content: center;
     align-items: center;  
   }
-  .card-header{
+.card-header{
     width: auto;
     background-color:rgb(28,52,60) ;
     border: none; 
   }
-  .card-body{
+.card-body{
     background-color: rgb(90,102,96);
     text-align: center;  
   }
-  .btn-primary{
+.btn-primary{
       background-color: transparent;
       border-color: white;
   }
-  .card-text{
+.card-text{
     color: white;
   }
-  .container{
+.container{
     display: flex;
     justify-items: flex-start;
     flex-direction: row;
