@@ -71,5 +71,5 @@ function createCategoryCard(data = {}) {
 }
 
 fetchCategoriesData();
-// renderCategoriesCard();
+
 
