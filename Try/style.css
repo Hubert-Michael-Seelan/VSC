@@ -3,3 +3,7 @@
   width: 100px;
   margin-bottom: 20px;
 }
+img{
+  background-size: contain;
+  height: 50px;
+}
